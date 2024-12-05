@@ -3,6 +3,9 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Page from "./components/page/Page"
 import Segunda from "./components/segunda/Segunda";
+import Tercera from "./components/tercera/Tercera"
+import Cuarta from "./components/cuarta/Cuarta"
+import Quinta from "./components/quinta/Quinta"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +31,9 @@ export default function RootLayout({ children }) {
       <Navbar/>
       <Page/>
       <Segunda/>
+      <Tercera/>
+      <Cuarta/>
+      <Quinta/>
       </body>
     </html>
   );
