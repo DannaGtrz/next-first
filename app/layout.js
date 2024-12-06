@@ -6,6 +6,7 @@ import Segunda from "./components/segunda/Segunda";
 import Tercera from "./components/tercera/Tercera"
 import Cuarta from "./components/cuarta/Cuarta"
 import Quinta from "./components/quinta/Quinta"
+import Sexta from "./components/sexta/Sexta"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       <Tercera/>
       <Cuarta/>
       <Quinta/>
+      <Sexta/>
       </body>
     </html>
   );

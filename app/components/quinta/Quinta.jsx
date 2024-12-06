@@ -4,6 +4,7 @@ export default function QuintaPage() {
   return (
     <div className="flex flex-wrap gap-4 p-4 bg-gray-100">
       <div className="flex-1 bg-white p-6 border rounded-lg shadow">
+        <h1 className="text-2xl font-normal text-gray-500">Gerentes</h1>
         <table className="w-full text-sm text-left text-gray-700 bg-white">
           <tbody>
             <tr className="bg-white border-b hover:bg-gray-100">
@@ -82,7 +83,7 @@ export default function QuintaPage() {
                 </div>
               </td>
               <td className="px-6 py-4">
-                Markitos Adan
+                Monserrat Adame
                 <p className="text-gray-500">Medical Buy</p>
               </td>
               <td className="px-6 py-4">
@@ -209,30 +210,30 @@ export default function QuintaPage() {
           </tbody>
         </table>
       </div>
-
-      <div className="max-w-lg mx-auto p-6 border rounded-lg shadow bg-white">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-lg font-semibold text-gray-800">Metas Actuales</h2>
-        <button
-          type="button"
-          className="w-10 h-10 bg-blue-600 rounded-full text-white flex items-center justify-center outline-none focus:ring-4 shadow-lg transform active:scale-75 transition-transform"
-        >
-          +
-        </button>
-      </div>
-      <div className="py-6 text-center">
-        <p className="text-sm text-gray-500">No hay registros disponibles</p>
-        <p className="mt-2 text-sm text-gray-500">
-          Monitorea los avances de tus grupos, crea nuevas metas por diferentes
-          parámetros.
-          <a href="#" className="text-blue-600 hover:underline">
-            crear nueva meta
-          </a>
-        </p>
+      <div className="max-w-[26rem] whitespace-normal break-words rounded-lg border border-blue-gray-50 bg-white p-4 font-sans text-sm font-normal text-blue-gray-500 shadow-lg shadow-blue-gray-500/10 focus:outline-none">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-lg font-semibold text-gray-800">
+            Metas Actuales
+          </h2>
+          <button
+            type="button"
+            className="w-10 h-10 bg-blue-600 rounded-full text-white flex items-center justify-center outline-none focus:ring-4 shadow-lg transform active:scale-75 transition-transform"
+          >
+            +
+          </button>
+        </div>
+        <div className="py-6 text-center">
+          <p className="text-sm text-gray-500">No hay registros disponibles</p>
+          <p className="mt-2 text-sm text-gray-500">
+            Monitorea los avances de tus grupos, crea nuevas metas por
+            diferentes parámetros
+            <a href="#" className="text-blue-600 hover:underline">
+              {" "}
+              crear nueva meta
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-</div>
-      
-
   );
 }
